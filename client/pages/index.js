@@ -8,9 +8,7 @@ import Loader from '../components/Loader';
 import {BrowserRouter as Router, Route,link,Switch, Routes, Redirect } from 'react-router-dom'
 import Sidebar from '../components/Sidebar';
 import { useState } from 'react';
-import contactUs from '../components/contactUs';
-import Track from '../components/Track';
-import Player from '../components/Player';
+import ContactUs from '../components/ContactUs';
 
 
 
@@ -35,7 +33,7 @@ export default function Home() {
         <Sidebar/>
         <Routes>
             <Route path="/" element={<Dashboard/>}/>
-            <Route path="./contactUs" component={<contactUs/>}/>
+            <Route path="/ContactUs" element={<ContactUs/>}/>
         </Routes>
       </Router>
     </div>

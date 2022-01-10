@@ -30,9 +30,9 @@ const handlePlay = () => {
                 <div className="h-10 w-10 bg-[#15883e] rounded-full flex items-center justify-center group-hover:bg-[#1db954] flex-shrink-0">
                 
                     {track.uri===playingTrack.uri && play ? (
-                        <BsFillPauseFill classNAme="text-x1"/>
+                        <BsFillPauseFill className="text-x1"/>
                     ) : (
-                        <BsFillPlayFill classNAme="text-x1 ml-[1px]"/>
+                        <BsFillPlayFill className="text-x1 ml-[1px]"/>
                     )}
                     
             

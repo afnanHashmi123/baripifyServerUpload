@@ -10,7 +10,7 @@ import {
   import Dashboard from "./Dashboard";
   import { Link } from "react-router-dom";
   import { useState } from "react";
-  import contactUs from "./contactUs";
+  import ContactUs from "./ContactUs";
 
 function Sidebar() {
     return (
@@ -25,7 +25,7 @@ function Sidebar() {
                    <Link to="/">
                        <HomeIcon className="sidebarIcon text-white opacity-[0.85]"/>
                    </Link>
-                   <Link to="../components/contactUs">
+                   <Link to="/ContactUs">
                 <RiCompassFill className="sidebarIcon text-2xl" />
                    </Link>
                 <FaMicrophoneAlt className="sidebarIcon ml-1" />
