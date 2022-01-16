@@ -9,6 +9,7 @@ import {BrowserRouter as Router, Route,link,Switch, Routes, Redirect } from 'rea
 import Sidebar from '../components/Sidebar';
 import { useState } from 'react';
 import ContactUs from '../components/ContactUs';
+import AboutUs from '../components/AboutUs';
 
 
 
@@ -34,6 +35,7 @@ export default function Home() {
         <Routes>
             <Route path="/" element={<Dashboard/>}/>
             <Route path="/ContactUs" element={<ContactUs/>}/>
+            <Route path="/AboutUs" element={<AboutUs/>}/>
         </Routes>
       </Router>
     </div>

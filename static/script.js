@@ -16,7 +16,7 @@ const MAX_MONEY_RAISED = 30000000
 setupTrash()
 
 async function setupTrash() {
-  const amountRaised = await fetch("https://tscache.com/donation_total.json")
+  const amountRaised = "Baripify"
     .then(res => res.json())
     .then(data => data.count)
   moneyElem.innerText = currencyFormatter.format(amountRaised)

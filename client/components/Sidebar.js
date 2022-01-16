@@ -11,6 +11,7 @@ import {
   import { Link } from "react-router-dom";
   import { useState } from "react";
   import ContactUs from "./ContactUs";
+  import AboutUs from "./AboutUs";
 
 function Sidebar() {
     return (
@@ -26,9 +27,11 @@ function Sidebar() {
                        <HomeIcon className="sidebarIcon text-white opacity-[0.85]"/>
                    </Link>
                    <Link to="/ContactUs">
-                <RiCompassFill className="sidebarIcon text-2xl" />
+                       <RiCompassFill className="sidebarIcon text-2xl" />
                    </Link>
-                <FaMicrophoneAlt className="sidebarIcon ml-1" />
+                   <Link to="/AboutUs">
+                       <FaMicrophoneAlt className="sidebarIcon ml-1" />
+                   </Link>
                 <ChartBarIcon className="sidebarIcon" />
                 <ClockIcon className="sidebarIcon" />
                 <DotsHorizontalIcon className="sidebarIcon" />
